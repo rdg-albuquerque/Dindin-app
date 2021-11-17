@@ -1,0 +1,15 @@
+.btn-filtrar {
+    align-self: flex-start;
+
+    background: #fafafa;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    padding: 8px 15px;
+
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}

@@ -1,0 +1,46 @@
+.modal-deletar-item {
+    background-image: url("../../assets/modal-deletar-item.svg");
+    width: 111px;
+    height: 51px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 60px;
+    z-index: 1;
+}
+
+.deletar__sim,
+.deletar__nao {
+    width: 37px;
+    height: 15px;
+
+    color: white;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+
+    border-radius: 4px;
+}
+
+.deletar__sim {
+    background: #3a9ff1;
+}
+
+.deletar__nao {
+    background: #ff576b;
+}
+
+.hidden {
+    display: none;
+}

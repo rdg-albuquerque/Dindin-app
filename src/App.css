@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root {
+    min-height: 100vh;
+}
+.App {
+    background: linear-gradient(90.23deg, #05ede3 0.02%, #645ffb 99.63%);
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input {
+    all: unset;
+    box-sizing: border-box;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 135px);
+
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+
+    padding: 55px 100px;
+    padding-bottom: 0;
+}
+
+.hidden {
+    display: none;
+}

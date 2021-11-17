@@ -1,0 +1,13 @@
+.btn-filtros {
+    background: #fafafa;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    width: 80px;
+    padding: 4px 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 12px;
+}

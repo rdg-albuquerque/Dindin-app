@@ -1,0 +1,11 @@
+.header {
+    padding: 40px 100px;
+}
+
+.header_logo-text {
+    font-family: "Rubik";
+    font-size: 36px;
+    font-weight: 700;
+
+    color: white;
+}

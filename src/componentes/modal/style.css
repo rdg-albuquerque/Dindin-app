@@ -1,0 +1,95 @@
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(61, 61, 61, 0.48);
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    width: 611px;
+
+    padding: 60px;
+
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.modal h1 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.btn-entrada,
+.btn-saida {
+    flex-grow: 1;
+    text-align: center;
+    height: 56px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.btn-entrada {
+    background: #b9b9b9;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.btn-saida {
+    background: #b9b9b9;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn-entrada-clicado {
+    background: linear-gradient(91.26deg, #05ede3 0%, #3a9ff1 97.77%);
+}
+
+.btn-saida-clicado {
+    background: linear-gradient(91.66deg, #fa8c10 0%, #ff576b 90.32%);
+}
+
+.btn-inserir {
+    background: #645ffb;
+    border-radius: 5px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+
+    align-self: center;
+    text-align: center;
+    width: 236px;
+    height: 38px;
+
+    margin-top: 23px;
+}
+
+.mensagem-erro {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+
+    color: black;
+    background-color: rgba(255, 0, 0, 0.562);
+
+    padding: 30px;
+
+    margin-bottom: 10px;
+}

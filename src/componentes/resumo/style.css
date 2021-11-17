@@ -1,0 +1,108 @@
+.resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    position: relative;
+    top: 60px;
+}
+
+.resumo__container {
+    background: #fafafa;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    padding: 26px 33px;
+}
+
+.resumo__h1 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #2f2f2f;
+
+    margin-bottom: 26px;
+}
+
+.entrada-texto,
+.saida-texto {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #2f2f2f;
+}
+
+.entrada-valor {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #645ffb;
+}
+
+.saida-valor {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #fa8c10;
+}
+
+.saldo-container {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 16px;
+    border-top: 1px solid #eaeaea;
+}
+
+.saldo-texto {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2f2f2f;
+}
+
+.saldo-valor {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #3a9ff1;
+}
+
+.btn-add {
+    background: linear-gradient(91.26deg, #fa8c10 0%, #ff57d3 97.77%);
+    border-radius: 5px;
+
+    color: white;
+    text-align: center;
+
+    height: 38px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
